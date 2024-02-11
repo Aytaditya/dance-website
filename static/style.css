@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Roboto+Mono:ital,wght@1,200&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Lumanosimo&family=Roboto+Mono:ital,wght@1,200&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:  'Lumanosimo', 'cursive';
+
+}
+#logo{
+    display: flex;
+    color: whitesmoke;
+    align-items: center;
+    margin: 0px 40px;
+    float: left;
+}
+#logo img{
+    height: 30px;
+}
+#navbar{
+    background-color: rgb(193, 50, 50);
+    padding: 8px 4px;
+    font-size: 17px;
+    
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+    padding:10px;
+    
+}
+#navbar li a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 7px 11px;
+    color:whitesmoke;
+}
+#navbar li a:hover{
+    color: rgb(26, 27, 28);
+}
+#introSection{
+    height: 300px;
+    background:url('/static/dance2.jpg') center /cover no-repeat;
+    color: white;
+   
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:  'Fuggles';
+    font-weight: bold;
+}
+.text{
+    font-weight: bold;
+}
+#mission h3{
+    text-align: center;
+}
+
+#mission{
+    height: 300px;
+
+}
+
+#sponsorSection h4{
+    padding-top: 25px;
+}
+#sponsorSection{
+    height:150px;
+    background-color: white;
+}
+#realsponsor{
+    height: 200px;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 14px 17px;
+    height: 230px;
+    display: inline-block;
+    background-color: #e0466ac4;
+}
+.chota{
+    font-size: 15px;
+}
+.spImage{
+    height: 110px;
+    padding-bottom: 15px;
+    padding-left: 95px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+#realsponsor h2{
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    color: blueviolet;
+    
+}
+#water{
+    height:120px;
+    max-width: 1000px;
+    margin: auto;
+    padding-right: 50px;
+}
+#footer{
+    height:60px;
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
