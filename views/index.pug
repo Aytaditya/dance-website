@@ -1,0 +1,53 @@
+doctype html
+html 
+    head
+        style 
+            include ../static/style.css 
+    body
+    nav#navbar.top
+     
+            
+        ul 
+            div#logo
+                img(src='/static/pngwing.com.png')
+                | ADA 
+            li #[a(href="/") Home] 
+            li #[a(href="/") About Us] 
+            li #[a(href="/") Services] 
+            li #[a(href="/") Class Info] 
+            li #[a(href="/") Contact Us] 
+
+    section#introSection
+        div Welcome to Aditya's Dance Academy
+        div.chota EAT SLEEP DANCE REPEAT
+    
+    section#mission 
+        h3 OUR MISSION
+        div.card
+            h3.good Dance Perfection
+        div.card 
+            h3.good Dance the way you like
+        div.card 
+            h3.good Expert Teaching
+    section#sponsorSection 
+        h4 Dance Classes welcome to
+           | to our dance Dance, where we offer an exciting array of dance   
+           | classes to inspire and engage dancers of all ages and skill levels. 
+           | With our dedicated team of passionate instructors, we are
+           | committed  to providing a nurturing and supportive environment that
+           | encourages creativity, growth, and a love for dance.
+
+    section#realsponsor 
+        h2 Our sponsors
+        div#water
+            img(src="/static/apple.png", alt="sponsor image" class="spImage")
+            img(src="/static/hp.png", alt="sponsor image" class="spImage")
+            img(src="/static/skype.png", alt="sponsor image" class="spImage")
+            img(src="/static/apple.png", alt="sponsor image" class="spImage")
+    
+    footer#footer 
+        | Copyright 2023 adityadanceacademy.com . All Rights Reserved.
+    
+
+    script 
+        include ../static/index.js 
